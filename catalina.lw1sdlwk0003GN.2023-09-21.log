@@ -1,0 +1,351 @@
+21-Sep-2023 03:41:13.310 WARNING [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [/home/tomcat/lib], exists: [false], isDirectory: [false], canRead: [false]
+21-Sep-2023 03:41:13.491 WARNING [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [/home/tomcat/lib], exists: [false], isDirectory: [false], canRead: [false]
+21-Sep-2023 03:41:13.531 WARNING [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [/home/site/libs], exists: [false], isDirectory: [false], canRead: [false]
+21-Sep-2023 03:41:13.540 WARNING [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [/home/site/libs], exists: [false], isDirectory: [false], canRead: [false]
+21-Sep-2023 03:41:18.216 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.0.23
+21-Sep-2023 03:41:18.233 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 14 2022 08:16:11 UTC
+21-Sep-2023 03:41:18.243 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.0.23.0
+21-Sep-2023 03:41:18.246 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+21-Sep-2023 03:41:18.254 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.15.116.1-1.cm2
+21-Sep-2023 03:41:18.254 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+21-Sep-2023 03:41:18.255 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /opt/java/openjdk
+21-Sep-2023 03:41:18.256 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.4.1+1-LTS
+21-Sep-2023 03:41:18.262 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Microsoft
+21-Sep-2023 03:41:18.263 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /usr/local/tomcat
+21-Sep-2023 03:41:18.264 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /usr/local/tomcat
+21-Sep-2023 03:41:18.265 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx1150M
+21-Sep-2023 03:41:18.273 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.net.preferIPv4Stack=true
+21-Sep-2023 03:41:18.274 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/agents/java/applicationinsights-agent-codeless.jar
+21-Sep-2023 03:41:18.274 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+21-Sep-2023 03:41:18.275 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+21-Sep-2023 03:41:18.276 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+21-Sep-2023 03:41:18.282 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+21-Sep-2023 03:41:18.283 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+21-Sep-2023 03:41:18.304 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/usr/local/tomcat/conf/logging.properties
+21-Sep-2023 03:41:18.325 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+21-Sep-2023 03:41:18.325 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xverify:none
+21-Sep-2023 03:41:18.333 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsite.logdir=/home/LogFiles
+21-Sep-2023 03:41:18.334 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/usr/local/tomcat/conf/logging.properties
+21-Sep-2023 03:41:18.335 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+21-Sep-2023 03:41:18.343 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+21-Sep-2023 03:41:18.344 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+21-Sep-2023 03:41:18.344 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+21-Sep-2023 03:41:18.345 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsite.azMonlogdir=/var/log/diagnosticLogs
+21-Sep-2023 03:41:18.347 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsite.root=/usr/local/appservice/parkingpage
+21-Sep-2023 03:41:18.384 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsite.unpackWARs=true
+21-Sep-2023 03:41:18.386 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsite.tempdir=/tmp
+21-Sep-2023 03:41:18.387 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsite.connectionTimeout=240000
+21-Sep-2023 03:41:18.425 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dport.http=80
+21-Sep-2023 03:41:18.436 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Daddr.container=169.254.130.5
+21-Sep-2023 03:41:18.444 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.instance.name=lw1sdlwk0003GN
+21-Sep-2023 03:41:18.447 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:ErrorFile=/home/LogFiles/java_error_WebProject123456_lw1sdlwk0003GN_%p.log
+21-Sep-2023 03:41:18.464 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+CrashOnOutOfMemoryError
+21-Sep-2023 03:41:18.467 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+HeapDumpOnOutOfMemoryError
+21-Sep-2023 03:41:18.487 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:HeapDumpPath=/home/LogFiles/java_memdump_WebProject123456_lw1sdlwk0003GN.log
+21-Sep-2023 03:41:18.494 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.maxThreads=200
+21-Sep-2023 03:41:18.497 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.maxConnections=10000
+21-Sep-2023 03:41:18.514 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.valves.showReport=false
+21-Sep-2023 03:41:18.514 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.valves.showServerInfo=false
+21-Sep-2023 03:41:18.515 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+21-Sep-2023 03:41:18.524 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+21-Sep-2023 03:41:18.525 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0022
+21-Sep-2023 03:41:18.525 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+21-Sep-2023 03:41:18.526 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/usr/local/tomcat
+21-Sep-2023 03:41:18.527 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/usr/local/tomcat
+21-Sep-2023 03:41:18.535 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/usr/local/tomcat/temp
+21-Sep-2023 03:41:18.608 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+21-Sep-2023 03:41:22.724 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-169.254.130.5-80"]
+21-Sep-2023 03:41:22.935 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [8743] milliseconds
+21-Sep-2023 03:41:23.504 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+21-Sep-2023 03:41:23.506 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.0.23]
+21-Sep-2023 03:41:23.695 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/usr/local/appservice/parkingpage/ROOT]
+21-Sep-2023 03:41:25.706 INFO [main] com.microsoft.azure.appservice.logging.AppServiceLogger.info Log clean up task initializing. Log expiry period = 90 days
+21-Sep-2023 03:41:25.850 INFO [pool-7-thread-1] com.microsoft.azure.appservice.logging.AppServiceLogger.info Log clean up task starting
+21-Sep-2023 03:41:25.842 INFO [main] com.microsoft.azure.appservice.logging.AppServiceLogger.info Log clean up task initialization succeeded
+21-Sep-2023 03:41:25.853 INFO [pool-7-thread-1] com.microsoft.azure.appservice.logging.AppServiceLogger.info Computing Tomcat log files list
+21-Sep-2023 03:41:25.900 INFO [pool-7-thread-1] com.microsoft.azure.appservice.logging.AppServiceLogger.info Cleaning up stale log files in directory: /home/LogFiles/Application
+21-Sep-2023 03:41:25.931 INFO [pool-7-thread-1] com.microsoft.azure.appservice.logging.AppServiceLogger.info Cleaning up stale log files in directory: /home/LogFiles/http/RawLogs
+21-Sep-2023 03:41:25.950 INFO [pool-7-thread-1] com.microsoft.azure.appservice.logging.AppServiceLogger.info Log clean up task succeeded
+21-Sep-2023 03:41:26.139 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+21-Sep-2023 03:41:26.304 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/usr/local/appservice/parkingpage/ROOT] has finished in [2,609] ms
+21-Sep-2023 03:41:26.472 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-169.254.130.5-80"]
+21-Sep-2023 03:41:26.836 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [3891] milliseconds
+21-Sep-2023 03:41:44.591 INFO [http-nio-169.254.130.5-80-exec-2] org.apache.jsp.index_jsp._jspService Hello, this is the default parking page!
+21-Sep-2023 03:41:44.732 INFO [http-nio-169.254.130.5-80-exec-2] org.apache.jsp.index_jsp._jspService Hello, this is the default parking page!
+21-Sep-2023 03:41:59.633 INFO [http-nio-169.254.130.5-80-exec-3] org.apache.jsp.index_jsp._jspService Hello, this is the default parking page!
+21-Sep-2023 03:42:09.516 INFO [http-nio-169.254.130.5-80-exec-4] org.apache.jsp.index_jsp._jspService Hello, this is the default parking page!
+21-Sep-2023 03:42:29.653 INFO [http-nio-169.254.130.5-80-exec-5] org.apache.jsp.index_jsp._jspService Hello, this is the default parking page!
+21-Sep-2023 03:42:39.592 INFO [http-nio-169.254.130.5-80-exec-6] org.apache.jsp.index_jsp._jspService Hello, this is the default parking page!
+21-Sep-2023 03:43:17.479 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context []
+21-Sep-2023 03:43:17.482 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+21-Sep-2023 03:43:17.871 WARNING [Catalina-utility-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [pool-7-thread-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.4.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.4.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+ java.base@17.0.4.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+ java.base@17.0.4.1/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+ java.base@17.0.4.1/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+ java.base@17.0.4.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+ java.base@17.0.4.1/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+ java.base@17.0.4.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.4.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.4.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.4.1/java.lang.Thread.run(Thread.java:833)
+21-Sep-2023 03:43:19.533 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+21-Sep-2023 03:43:19.893 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+21-Sep-2023 03:43:23.489 WARNING [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [/home/tomcat/lib], exists: [false], isDirectory: [false], canRead: [false]
+21-Sep-2023 03:43:24.147 WARNING [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [/home/tomcat/lib], exists: [false], isDirectory: [false], canRead: [false]
+21-Sep-2023 03:43:24.270 WARNING [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [/home/site/libs], exists: [false], isDirectory: [false], canRead: [false]
+21-Sep-2023 03:43:24.339 WARNING [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [/home/site/libs], exists: [false], isDirectory: [false], canRead: [false]
+21-Sep-2023 03:43:30.214 INFO [http-nio-169.254.130.5-80-exec-6] org.apache.jsp.index_jsp._jspService Hello, this is the default parking page!
+21-Sep-2023 03:43:39.652 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.0.23
+21-Sep-2023 03:43:39.660 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 14 2022 08:16:11 UTC
+21-Sep-2023 03:43:39.670 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.0.23.0
+21-Sep-2023 03:43:39.689 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+21-Sep-2023 03:43:39.691 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.15.116.1-1.cm2
+21-Sep-2023 03:43:39.692 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+21-Sep-2023 03:43:39.710 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /opt/java/openjdk
+21-Sep-2023 03:43:39.711 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.4.1+1-LTS
+21-Sep-2023 03:43:39.722 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Microsoft
+21-Sep-2023 03:43:39.730 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /usr/local/tomcat
+21-Sep-2023 03:43:39.730 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /usr/local/tomcat
+21-Sep-2023 03:43:39.732 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx1150M
+21-Sep-2023 03:43:39.741 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.net.preferIPv4Stack=true
+21-Sep-2023 03:43:39.760 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/agents/java/applicationinsights-agent-codeless.jar
+21-Sep-2023 03:43:39.761 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+21-Sep-2023 03:43:39.762 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+21-Sep-2023 03:43:39.771 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+21-Sep-2023 03:43:39.780 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+21-Sep-2023 03:43:39.791 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+21-Sep-2023 03:43:39.793 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/usr/local/tomcat/conf/logging.properties
+21-Sep-2023 03:43:39.951 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+21-Sep-2023 03:43:39.984 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xverify:none
+21-Sep-2023 03:43:40.003 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsite.logdir=/home/LogFiles
+21-Sep-2023 03:43:40.014 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/usr/local/tomcat/conf/logging.properties
+21-Sep-2023 03:43:40.051 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+21-Sep-2023 03:43:40.062 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+21-Sep-2023 03:43:40.084 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+21-Sep-2023 03:43:40.091 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+21-Sep-2023 03:43:40.104 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsite.azMonlogdir=/var/log/diagnosticLogs
+21-Sep-2023 03:43:40.110 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsite.root=/usr/local/appservice/parkingpage
+21-Sep-2023 03:43:40.130 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsite.unpackWARs=true
+21-Sep-2023 03:43:40.132 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsite.tempdir=/tmp
+21-Sep-2023 03:43:40.142 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsite.connectionTimeout=240000
+21-Sep-2023 03:43:40.143 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dport.http=80
+21-Sep-2023 03:43:40.229 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Daddr.container=169.254.130.7
+21-Sep-2023 03:43:40.257 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.instance.name=lw1sdlwk0003GN
+21-Sep-2023 03:43:40.266 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:ErrorFile=/home/LogFiles/java_error_WebProject123456_lw1sdlwk0003GN_%p.log
+21-Sep-2023 03:43:40.275 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+CrashOnOutOfMemoryError
+21-Sep-2023 03:43:40.278 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+HeapDumpOnOutOfMemoryError
+21-Sep-2023 03:43:40.286 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:HeapDumpPath=/home/LogFiles/java_memdump_WebProject123456_lw1sdlwk0003GN.log
+21-Sep-2023 03:43:40.305 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.maxThreads=200
+21-Sep-2023 03:43:40.307 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.maxConnections=10000
+21-Sep-2023 03:43:40.338 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.valves.showReport=false
+21-Sep-2023 03:43:40.345 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.valves.showServerInfo=false
+21-Sep-2023 03:43:40.346 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+21-Sep-2023 03:43:40.348 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+21-Sep-2023 03:43:40.349 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0022
+21-Sep-2023 03:43:40.419 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+21-Sep-2023 03:43:40.428 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/usr/local/tomcat
+21-Sep-2023 03:43:40.448 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/usr/local/tomcat
+21-Sep-2023 03:43:40.546 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/usr/local/tomcat/temp
+21-Sep-2023 03:43:40.589 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+21-Sep-2023 03:43:51.536 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-169.254.130.7-80"]
+21-Sep-2023 03:43:52.237 INFO [http-nio-169.254.130.5-80-exec-1] org.apache.jsp.index_jsp._jspService Hello, this is the default parking page!
+21-Sep-2023 03:43:52.984 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [22924] milliseconds
+21-Sep-2023 03:43:55.731 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+21-Sep-2023 03:43:55.741 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.0.23]
+21-Sep-2023 03:43:56.223 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/usr/local/appservice/parkingpage/ROOT]
+21-Sep-2023 03:44:04.591 INFO [main] com.microsoft.azure.appservice.logging.AppServiceLogger.info Log clean up task initializing. Log expiry period = 90 days
+21-Sep-2023 03:44:04.743 INFO [main] com.microsoft.azure.appservice.logging.AppServiceLogger.info Log clean up task initialization succeeded
+21-Sep-2023 03:44:04.744 INFO [pool-7-thread-1] com.microsoft.azure.appservice.logging.AppServiceLogger.info Log clean up task starting
+21-Sep-2023 03:44:04.821 INFO [pool-7-thread-1] com.microsoft.azure.appservice.logging.AppServiceLogger.info Computing Tomcat log files list
+21-Sep-2023 03:44:04.833 INFO [pool-7-thread-1] com.microsoft.azure.appservice.logging.AppServiceLogger.info Cleaning up stale log files in directory: /home/LogFiles/Application
+21-Sep-2023 03:44:05.004 INFO [pool-7-thread-1] com.microsoft.azure.appservice.logging.AppServiceLogger.info Cleaning up stale log files in directory: /home/LogFiles/http/RawLogs
+21-Sep-2023 03:44:05.053 INFO [pool-7-thread-1] com.microsoft.azure.appservice.logging.AppServiceLogger.info Log clean up task succeeded
+21-Sep-2023 03:44:05.414 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+21-Sep-2023 03:44:05.727 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [120] milliseconds.
+21-Sep-2023 03:44:06.139 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/usr/local/appservice/parkingpage/ROOT] has finished in [9,916] ms
+21-Sep-2023 03:44:06.358 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-169.254.130.7-80"]
+21-Sep-2023 03:44:07.020 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [14033] milliseconds
+21-Sep-2023 03:44:14.847 INFO [Thread-18] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-169.254.130.5-80"]
+21-Sep-2023 03:44:15.151 INFO [Thread-18] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+21-Sep-2023 03:44:15.692 INFO [Thread-18] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-169.254.130.5-80"]
+21-Sep-2023 03:44:16.400 INFO [Thread-18] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-169.254.130.5-80"]
+21-Sep-2023 03:45:17.183 INFO [http-nio-169.254.130.7-80-exec-2] org.apache.jsp.index_jsp._jspService Hello, this is the default parking page!
+21-Sep-2023 03:45:31.428 WARNING [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [/home/tomcat/lib], exists: [false], isDirectory: [false], canRead: [false]
+21-Sep-2023 03:45:32.240 WARNING [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [/home/tomcat/lib], exists: [false], isDirectory: [false], canRead: [false]
+21-Sep-2023 03:45:32.259 WARNING [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [/home/site/libs], exists: [false], isDirectory: [false], canRead: [false]
+21-Sep-2023 03:45:32.279 WARNING [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [/home/site/libs], exists: [false], isDirectory: [false], canRead: [false]
+21-Sep-2023 03:45:37.277 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.0.23
+21-Sep-2023 03:45:37.308 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 14 2022 08:16:11 UTC
+21-Sep-2023 03:45:37.326 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.0.23.0
+21-Sep-2023 03:45:37.327 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+21-Sep-2023 03:45:37.338 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.15.116.1-1.cm2
+21-Sep-2023 03:45:37.355 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+21-Sep-2023 03:45:37.357 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /opt/java/openjdk
+21-Sep-2023 03:45:37.366 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.4.1+1-LTS
+21-Sep-2023 03:45:37.368 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Microsoft
+21-Sep-2023 03:45:37.387 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /usr/local/tomcat
+21-Sep-2023 03:45:37.388 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /usr/local/tomcat
+21-Sep-2023 03:45:37.396 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx1150M
+21-Sep-2023 03:45:37.405 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.net.preferIPv4Stack=true
+21-Sep-2023 03:45:37.406 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/agents/java/applicationinsights-agent-codeless.jar
+21-Sep-2023 03:45:37.408 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+21-Sep-2023 03:45:37.415 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+21-Sep-2023 03:45:37.416 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+21-Sep-2023 03:45:37.447 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+21-Sep-2023 03:45:37.448 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+21-Sep-2023 03:45:37.449 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/usr/local/tomcat/conf/logging.properties
+21-Sep-2023 03:45:37.476 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+21-Sep-2023 03:45:37.487 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xverify:none
+21-Sep-2023 03:45:37.505 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsite.logdir=/home/LogFiles
+21-Sep-2023 03:45:37.507 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/usr/local/tomcat/conf/logging.properties
+21-Sep-2023 03:45:37.508 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+21-Sep-2023 03:45:37.509 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+21-Sep-2023 03:45:37.517 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+21-Sep-2023 03:45:37.519 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+21-Sep-2023 03:45:37.545 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsite.azMonlogdir=/var/log/diagnosticLogs
+21-Sep-2023 03:45:37.546 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsite.root=/usr/local/tomcat/webapps
+21-Sep-2023 03:45:37.548 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsite.unpackWARs=false
+21-Sep-2023 03:45:37.549 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsite.tempdir=/tmp
+21-Sep-2023 03:45:37.586 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsite.connectionTimeout=240000
+21-Sep-2023 03:45:37.589 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dport.http=80
+21-Sep-2023 03:45:37.625 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Daddr.container=169.254.130.5
+21-Sep-2023 03:45:37.626 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.instance.name=lw1sdlwk0003GN
+21-Sep-2023 03:45:37.627 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:ErrorFile=/home/LogFiles/java_error_WebProject123456_lw1sdlwk0003GN_%p.log
+21-Sep-2023 03:45:37.627 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+CrashOnOutOfMemoryError
+21-Sep-2023 03:45:37.628 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+HeapDumpOnOutOfMemoryError
+21-Sep-2023 03:45:37.628 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:HeapDumpPath=/home/LogFiles/java_memdump_WebProject123456_lw1sdlwk0003GN.log
+21-Sep-2023 03:45:37.629 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.maxThreads=200
+21-Sep-2023 03:45:37.656 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.maxConnections=10000
+21-Sep-2023 03:45:37.658 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.valves.showReport=false
+21-Sep-2023 03:45:37.659 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.valves.showServerInfo=false
+21-Sep-2023 03:45:37.666 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+21-Sep-2023 03:45:37.667 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+21-Sep-2023 03:45:37.676 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0022
+21-Sep-2023 03:45:37.677 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+21-Sep-2023 03:45:37.695 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/usr/local/tomcat
+21-Sep-2023 03:45:37.696 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/usr/local/tomcat
+21-Sep-2023 03:45:37.697 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/usr/local/tomcat/temp
+21-Sep-2023 03:45:37.708 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+21-Sep-2023 03:45:41.748 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-169.254.130.5-80"]
+21-Sep-2023 03:45:42.086 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [9044] milliseconds
+21-Sep-2023 03:45:42.579 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+21-Sep-2023 03:45:42.600 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.0.23]
+21-Sep-2023 03:45:42.800 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/usr/local/tomcat/webapps/helloworld]
+21-Sep-2023 03:45:45.320 INFO [main] com.microsoft.azure.appservice.logging.AppServiceLogger.info Log clean up task initializing. Log expiry period = 90 days
+21-Sep-2023 03:45:45.447 INFO [main] com.microsoft.azure.appservice.logging.AppServiceLogger.info Log clean up task initialization succeeded
+21-Sep-2023 03:45:45.449 INFO [pool-7-thread-1] com.microsoft.azure.appservice.logging.AppServiceLogger.info Log clean up task starting
+21-Sep-2023 03:45:45.478 INFO [pool-7-thread-1] com.microsoft.azure.appservice.logging.AppServiceLogger.info Computing Tomcat log files list
+21-Sep-2023 03:45:45.530 INFO [pool-7-thread-1] com.microsoft.azure.appservice.logging.AppServiceLogger.info Cleaning up stale log files in directory: /home/LogFiles/Application
+21-Sep-2023 03:45:45.726 INFO [pool-7-thread-1] com.microsoft.azure.appservice.logging.AppServiceLogger.info Cleaning up stale log files in directory: /home/LogFiles/http/RawLogs
+21-Sep-2023 03:45:45.748 INFO [pool-7-thread-1] com.microsoft.azure.appservice.logging.AppServiceLogger.info Log clean up task succeeded
+21-Sep-2023 03:45:46.489 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+21-Sep-2023 03:45:46.771 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/usr/local/tomcat/webapps/helloworld] has finished in [3,963] ms
+21-Sep-2023 03:45:46.990 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-169.254.130.5-80"]
+21-Sep-2023 03:45:47.260 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [5172] milliseconds
+21-Sep-2023 03:45:49.490 INFO [Thread-19] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-169.254.130.7-80"]
+21-Sep-2023 03:45:49.531 INFO [Thread-19] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+21-Sep-2023 03:45:49.751 WARNING [Thread-19] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [pool-7-thread-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.4.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.4.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+ java.base@17.0.4.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+ java.base@17.0.4.1/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+ java.base@17.0.4.1/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+ java.base@17.0.4.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+ java.base@17.0.4.1/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+ java.base@17.0.4.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.4.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.4.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.4.1/java.lang.Thread.run(Thread.java:833)
+21-Sep-2023 03:45:49.818 INFO [Thread-19] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-169.254.130.7-80"]
+21-Sep-2023 03:45:49.850 INFO [Thread-19] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-169.254.130.7-80"]
+21-Sep-2023 03:46:17.813 WARNING [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [/home/tomcat/lib], exists: [false], isDirectory: [false], canRead: [false]
+21-Sep-2023 03:46:18.185 WARNING [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [/home/tomcat/lib], exists: [false], isDirectory: [false], canRead: [false]
+21-Sep-2023 03:46:18.207 WARNING [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [/home/site/libs], exists: [false], isDirectory: [false], canRead: [false]
+21-Sep-2023 03:46:18.217 WARNING [main] org.apache.catalina.startup.ClassLoaderFactory.validateFile Problem with directory [/home/site/libs], exists: [false], isDirectory: [false], canRead: [false]
+21-Sep-2023 03:46:24.202 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.0.23
+21-Sep-2023 03:46:24.212 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 14 2022 08:16:11 UTC
+21-Sep-2023 03:46:24.222 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.0.23.0
+21-Sep-2023 03:46:24.224 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+21-Sep-2023 03:46:24.233 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.15.116.1-1.cm2
+21-Sep-2023 03:46:24.234 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+21-Sep-2023 03:46:24.245 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /opt/java/openjdk
+21-Sep-2023 03:46:24.252 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.4.1+1-LTS
+21-Sep-2023 03:46:24.282 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Microsoft
+21-Sep-2023 03:46:24.303 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /usr/local/tomcat
+21-Sep-2023 03:46:24.311 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /usr/local/tomcat
+21-Sep-2023 03:46:24.313 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx1150M
+21-Sep-2023 03:46:24.314 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.net.preferIPv4Stack=true
+21-Sep-2023 03:46:24.321 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/agents/java/applicationinsights-agent-codeless.jar
+21-Sep-2023 03:46:24.321 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+21-Sep-2023 03:46:24.322 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+21-Sep-2023 03:46:24.322 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+21-Sep-2023 03:46:24.324 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+21-Sep-2023 03:46:24.324 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+21-Sep-2023 03:46:24.353 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/usr/local/tomcat/conf/logging.properties
+21-Sep-2023 03:46:24.360 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+21-Sep-2023 03:46:24.362 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xverify:none
+21-Sep-2023 03:46:24.370 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsite.logdir=/home/LogFiles
+21-Sep-2023 03:46:24.374 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/usr/local/tomcat/conf/logging.properties
+21-Sep-2023 03:46:24.403 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+21-Sep-2023 03:46:24.413 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+21-Sep-2023 03:46:24.423 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+21-Sep-2023 03:46:24.431 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+21-Sep-2023 03:46:24.432 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsite.azMonlogdir=/var/log/diagnosticLogs
+21-Sep-2023 03:46:24.433 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsite.root=/usr/local/tomcat/webapps
+21-Sep-2023 03:46:24.434 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsite.unpackWARs=false
+21-Sep-2023 03:46:24.483 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsite.tempdir=/tmp
+21-Sep-2023 03:46:24.493 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsite.connectionTimeout=240000
+21-Sep-2023 03:46:24.502 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dport.http=80
+21-Sep-2023 03:46:24.511 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Daddr.container=169.254.130.7
+21-Sep-2023 03:46:24.512 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.instance.name=lw1sdlwk0003GN
+21-Sep-2023 03:46:24.521 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:ErrorFile=/home/LogFiles/java_error_WebProject123456_lw1sdlwk0003GN_%p.log
+21-Sep-2023 03:46:24.524 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+CrashOnOutOfMemoryError
+21-Sep-2023 03:46:24.533 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+HeapDumpOnOutOfMemoryError
+21-Sep-2023 03:46:24.543 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:HeapDumpPath=/home/LogFiles/java_memdump_WebProject123456_lw1sdlwk0003GN.log
+21-Sep-2023 03:46:24.551 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.maxThreads=200
+21-Sep-2023 03:46:24.563 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.maxConnections=10000
+21-Sep-2023 03:46:24.564 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.valves.showReport=false
+21-Sep-2023 03:46:24.583 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.valves.showServerInfo=false
+21-Sep-2023 03:46:24.585 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+21-Sep-2023 03:46:24.602 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+21-Sep-2023 03:46:24.603 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0022
+21-Sep-2023 03:46:24.604 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+21-Sep-2023 03:46:24.604 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/usr/local/tomcat
+21-Sep-2023 03:46:24.612 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/usr/local/tomcat
+21-Sep-2023 03:46:24.613 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/usr/local/tomcat/temp
+21-Sep-2023 03:46:24.631 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+21-Sep-2023 03:46:33.715 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-169.254.130.7-80"]
+21-Sep-2023 03:46:34.127 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [14343] milliseconds
+21-Sep-2023 03:46:35.429 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+21-Sep-2023 03:46:35.438 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.0.23]
+21-Sep-2023 03:46:35.984 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/usr/local/tomcat/webapps/helloworld]
+21-Sep-2023 03:46:41.162 INFO [main] com.microsoft.azure.appservice.logging.AppServiceLogger.info Log clean up task initializing. Log expiry period = 90 days
+21-Sep-2023 03:46:41.414 INFO [main] com.microsoft.azure.appservice.logging.AppServiceLogger.info Log clean up task initialization succeeded
+21-Sep-2023 03:46:41.416 INFO [pool-7-thread-1] com.microsoft.azure.appservice.logging.AppServiceLogger.info Log clean up task starting
+21-Sep-2023 03:46:41.435 INFO [pool-7-thread-1] com.microsoft.azure.appservice.logging.AppServiceLogger.info Computing Tomcat log files list
+21-Sep-2023 03:46:41.484 INFO [pool-7-thread-1] com.microsoft.azure.appservice.logging.AppServiceLogger.info Cleaning up stale log files in directory: /home/LogFiles/Application
+21-Sep-2023 03:46:41.515 INFO [pool-7-thread-1] com.microsoft.azure.appservice.logging.AppServiceLogger.info Cleaning up stale log files in directory: /home/LogFiles/http/RawLogs
+21-Sep-2023 03:46:41.547 INFO [pool-7-thread-1] com.microsoft.azure.appservice.logging.AppServiceLogger.info Log clean up task succeeded
+21-Sep-2023 03:46:41.857 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+21-Sep-2023 03:46:42.069 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [109] milliseconds.
+21-Sep-2023 03:46:42.458 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/usr/local/tomcat/webapps/helloworld] has finished in [6,474] ms
+21-Sep-2023 03:46:42.629 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-169.254.130.7-80"]
+21-Sep-2023 03:46:43.077 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [8947] milliseconds
+21-Sep-2023 03:46:46.084 INFO [Thread-18] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-169.254.130.5-80"]
+21-Sep-2023 03:46:46.117 INFO [Thread-18] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+21-Sep-2023 03:46:46.318 WARNING [Thread-18] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [helloworld] appears to have started a thread named [pool-7-thread-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.4.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.4.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+ java.base@17.0.4.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+ java.base@17.0.4.1/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+ java.base@17.0.4.1/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+ java.base@17.0.4.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+ java.base@17.0.4.1/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+ java.base@17.0.4.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.4.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.4.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.4.1/java.lang.Thread.run(Thread.java:833)
+21-Sep-2023 03:46:46.577 INFO [Thread-18] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-169.254.130.5-80"]
+21-Sep-2023 03:46:46.638 INFO [Thread-18] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-169.254.130.5-80"]
